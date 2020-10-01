@@ -182,47 +182,7 @@ $fontCalibri: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 
 //-----------THIRD SECTION ---------
 #third-section {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    h3 {
-        font-size: 50pt;
-        color:#3e37cc;
-        font-family: $fontArial;
-        text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-    }
-    h4 {
-        font-size: 30pt;
-        color: white;
-        font-family: $fontArial;
-        text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-    }
-    p {
-        font-size: 18pt;
-        line-height: 24pt;
-        color: white;
-    }
-    .btn {
-        border: 1px solid white;
-        color: white!important;
-        background-color: rgba(255,255,255,0.3);
-        height: 40pt!important;
-        width: 120pt!important;
-        font-size: 13pt;
-        -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.34);
-        -moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.34);
-        box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.34);
-    }
-}
-//RAYA
-#raya {
-    border-bottom: 3px solid #852C84;
-    width: 1145px;
-    margin-bottom: 18px;
-} 
-//END
-#six-section {
-    background-color: #d83f3f;
+    background-image: url(../img/downloaded/third-section.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
