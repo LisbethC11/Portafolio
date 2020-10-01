@@ -21,7 +21,9 @@ $fontCalibri: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 
     font-family: $fontArial;
    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,000000+100&0.81+0,0.21+50,0.08+81,0.24+100 */
-    
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.81) 0%, rgba(0,0,0,0.8) 1%, rgba(0,0,0,0.21) 50%, rgba(0,0,0,0.08) 81%, rgba(0,0,0,0.24) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.81) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.21) 50%,rgba(0,0,0,0.08) 81%,rgba(0,0,0,0.24) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(0,0,0,0.81) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.21) 50%,rgba(0,0,0,0.08) 81%,rgba(0,0,0,0.24) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf000000', endColorstr='#3d000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     box-shadow: none;
  
