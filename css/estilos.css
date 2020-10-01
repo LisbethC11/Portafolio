@@ -4,6 +4,12 @@
     width: 790px;
     margin-bottom: 18px;
 } 
+#rayas {
+
+    border-bottom: 6px solid #000000;
+    width: 500px;
+    margin-bottom: 18px;
+} 
 
 #third-section h3 {
     font-size: 50pt;
